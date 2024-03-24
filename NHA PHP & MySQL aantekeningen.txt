@@ -1,0 +1,48 @@
+NHA PHP & MySQL
+---------------
+* Floats, allow fraction: https://www.w3schools.com/PHP/filter_sanitize_number_float.asp
+* Step = "0.01", https://stackoverflow.com/questions/19011861/is-there-a-float-input-type-in-html5
+* Number format met 2 decimalen achter de komma. https://stackoverflow.com/questions/4483540/show-a-number-to-two-decimal-places
+* How to get input field value: https://stackoverflow.com/questions/13447554/how-to-get-input-field-value-using-php
+
+CSS
+----------
+* Flexbox: https://the-echoplex.net/flexyboxes/
+
+--------------------
+MAMP, https://mamp.info 
+C:\MAMP\htdocs
+Browser: localhost
+<?php   ?>
+echo " ";
+Comments: // of # of /*      */
+Escapen: \
+$variabele, case sensitive
+Boolean, true/false
+Array. $days[0] = "xyz";
+date();
+tabel date object weergaven, pagina 34.
+operatoren, + - * etc.
+spaceship operator, <==>, pagina 4.38. -1, 0, 1
+10 <==> 15: -1 (10 kleiner dan 15)
+< (-1)  == (0)  > (+1)
+if ... else
+else if
+switch, case, break, default
+while loop
+for loop, $i (iteratie variabele)
+$i++ increment
+. concatenatie
+foreach loop voor array
+-------- PHP Deel 2
+* superglobals, $_SERVER, p6.74
+* session_start(), p6.76
+* $SESSION[ ]
+* session_destroy(), p6.78
+* Cookies. Verlengde van sessies.
+* print_r(): Array printen
+* Array functies: sort, rsort, shuffle, shift, pop, unique, count, explode, print_r.
+* String functies: sha1, filter_var, strlen, strtolower, strtoupper, str_replace, substr, trim, ucfirst, ucwords.
+* Wiskundige functies: ceil, floor, number_format, rand, round, sqrt, 
+* Overige functies: exit, die, include, mail, phpinfo.
+
